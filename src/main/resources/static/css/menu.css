@@ -13,7 +13,7 @@ body{
 
 .header {
     position: fixed;
-    background-color: #076af0;
+    background-color:cadetblue ;
     height: 80px;
     width: 100%;
     top: 0;
@@ -27,11 +27,11 @@ body{
 
 .nav-link{
     text-decoration: none;
-    color: white;
+    color: #024070;
 }
 .logo{
     font-size: 30px;
-    font-weight: bold;
+    font-weight: lighter;
     padding: 0 40px;
     line-height: 80px;
 }
@@ -49,6 +49,14 @@ body{
     padding: 8px 12px;
 }
 .nav-menu-link:hover{
-    background-color: #024070;
-    border-radius: 10px;
+    background-color: appworkspace;
+    border-radius: 60px;
+}
+footer {
+   text-align: center;
+   background-color: none;
+   color: black;
+}
+.pop{
+    
 }
