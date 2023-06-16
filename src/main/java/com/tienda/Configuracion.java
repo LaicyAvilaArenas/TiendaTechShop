@@ -3,7 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.tienda;
-        import java.util.Locale;
+
+import java.util.Locale;
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -30,8 +31,12 @@ public class Configuracion implements WebMvcConfigurer {
         return slr;
     }
 
+    @Bean
     public LocaleChangeInterceptor localeChangeInterceptor() {
         var lci = new LocaleChangeInterceptor();
+        /* falta una línea de código
+
+         */
         return lci;
     }
 
@@ -51,6 +56,3 @@ public class Configuracion implements WebMvcConfigurer {
         return messageSource;
     }
 }
-
-    
-
