@@ -10,5 +10,5 @@ public interface CategoriaService {
     public List<Categoria> getCategorias(boolean activos);
     
     //ACA SIGUEN LOS MÉTODOS PARA HACER UN CRUD DE LA TABLA CATEGORIA
-    
+     
 }
